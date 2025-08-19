@@ -1,4 +1,4 @@
-# Node modules (dependencies)
+# Node modules
 node_modules/
 aircraftapp/node_modules/
 server/node_modules/
@@ -6,17 +6,16 @@ server/node_modules/
 # Build outputs
 build/
 dist/
-.aircraftapp/build
-server/build
+aircraftapp/build/
+server/build/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 *.log
 
-# Environment files (contain secrets like API keys, DB URLs)
+# Environment files
 .env
 *.env
 
