@@ -1,0 +1,181 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero {
+  position: relative;
+  margin: 30px 0;
+}
+
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.hero-text h1 {
+  color: #1f3337;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.hero-text p {
+  color: #1f3337;
+  margin-bottom: 10px;
+}
+
+
+.hero-text button {
+  margin-right: 10px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #1e40af;
+  color: white;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #e5e7eb;
+}
+
+
+.models {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.model-card {
+  width: 220px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.model-card:hover {
+  transform: scale(1.03);
+}
+
+.model-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.model-info {
+  padding: 10px 12px;
+}
+
+.model-info h4 {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #111;
+}
+
+.model-info p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.how-it-works .how-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.how-content img {
+  width: 300px;
+  max-width: 100%;
+}
+
+.how-content div {
+  max-width: 400px;
+}
+
+.how-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.how-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.how-content button {
+  padding: 8px 16px;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+
+footer {
+  border-top: 1px solid #ddd;
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.socials i {
+  margin: 0 8px;
+}

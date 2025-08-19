@@ -1,0 +1,216 @@
+/* General Reset */
+
+@import "leaflet/dist/leaflet.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Navbar Styles */
+/* Navbar Styles */
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+/* Modern nav button styles */
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background-color: #f3f4f6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+
+
+/* Section Titles */
+.section-title {
+  font-size: 1.6rem;
+  margin: 40px 0 20px 0;
+  text-align: center;
+  color: #111827;
+}
+
+/* Manufacturer Cards */
+.manufacturers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.manufacturer-card {
+  width: 120px;
+  height: 120px;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.manufacturer-card:hover {
+  transform: scale(1.05);
+  background-color: #e5e7eb;
+}
+
+/* Aircraft Cards */
+.aircraft-models {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.aircraft-card {
+  width: 200px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.aircraft-card:hover {
+  transform: scale(1.03);
+}
+
+.aircraft-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.aircraft-card .info {
+  padding: 12px;
+}
+
+.aircraft-card .info h4 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.aircraft-card .info p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #ddd;
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #3e3e3e;
+}
+.footerclass{
+  background-color: #dbdbdb;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.socials i {
+  margin: 0 8px;
+}
+
+
+/* Gemini-style AI button */
+.skygram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #4e7eff, #1cb5e0);
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(28, 181, 224, 0.4);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.skygram-link:hover {
+  background: linear-gradient(135deg, #1cb5e0, #4e7eff);
+  transform: scale(1.05);
+}
+
+/* AI Icon beside text */
+.skygram-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.nav-list li a {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #f4f4f4;
+  border-radius: 25px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.nav-list li a:hover {
+  background-color: #e0e0e0;
+}
